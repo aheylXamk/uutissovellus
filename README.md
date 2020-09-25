@@ -1,0 +1,2 @@
+# uutissovellus
+Typescript, Angular & Ionic
