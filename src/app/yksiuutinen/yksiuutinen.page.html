@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button routerLink="/">sulje</ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+  
+<h3>{{ uutis.otsikko }}</h3>
+<p>{{ uutis.pvm }}</p>
+  <ion-img [src]="uutis.kuva"></ion-img>
+  <p>{{ uutis.sisalto }}</p>
+
+
+</div>
+</ion-content>
